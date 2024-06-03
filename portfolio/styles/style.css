@@ -1,0 +1,42 @@
+body {
+    /* background: linear-gradient(to bottom, white, lightgrey); */
+    background-image: url('../images/flork.webp');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 200px 200px;
+
+    width: 800px;
+    margin: 0 auto; /* top, left and right*/
+    padding: 0 20px 20px 20px; /* top, right, bottom, left */
+    border: 5px solid black;
+
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 5px lightgrey;
+}
+
+h2,
+p,
+form {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+#selfie {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 2px 2px 5px lightgrey;
+
+    border: 2px solid black;
+}
+
+.youtube-vid, li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
